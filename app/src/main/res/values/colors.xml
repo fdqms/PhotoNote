@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#000000</color> <!--#03DAC5-->
+
+    <color name="temaRengi">#ffffff</color>
+    <color name="kabulYesil">#dcf6df</color>
+    <color name="transparent">#00000000</color>
+    <color name="beyaz">#FFFFFF</color>
+    <color name="gri">#CCCCCC</color>
+
+    <color name="barColor">#F9F9F9</color>
+    <color name="yaziRengi">#000000</color>
+    <color name="hintColor">#9a9a9a</color>
+    <color name="arkaPlanRengi">#FFFFFF</color>
+</resources>

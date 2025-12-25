@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_alinti"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    android:background="@color/arkaPlanRengi">
+
+    <TextView
+        android:id="@+id/tv_alinti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/view_alinti"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/et_kenar"
+        android:fontFamily="@font/arch"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/yaziRengi"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/view_alinti"
+        android:layout_width="3dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_alinti"
+        android:layout_alignBottom="@id/tv_alinti"
+        android:layout_marginStart="20dp"
+        android:background="#B1233A" />
+</RelativeLayout>

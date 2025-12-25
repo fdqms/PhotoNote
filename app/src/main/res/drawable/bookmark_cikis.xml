@@ -1,0 +1,84 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="48dp"
+            android:height="48dp"
+            android:viewportWidth="48"
+            android:viewportHeight="48">
+            <group android:name="group_1">
+                <group android:name="group">
+                    <group android:name="_r_g">
+                        <group
+                            android:name="_r_g_l_1_g_n_1_t_0"
+                            android:pivotX="50"
+                            android:pivotY="50"
+                            android:translateX="-26"
+                            android:translateY="-28"
+                            android:scaleX="0.1575"
+                            android:scaleY="0">
+                            <group
+                                android:name="_r_g_l_1_g_t_1"
+                                android:translateX="50"
+                                android:translateY="24.603"
+                                android:scaleX="6.34921"
+                                android:scaleY="6.34921">
+                                <group
+                                    android:name="_r_g_l_1_g"
+                                    android:translateX="-9.985"
+                                    android:translateY="-12.789">
+                                    <path
+                                        android:name="_r_g_l_1_g_d_0_p_0"
+                                        android:pathData="M 12.34 1.49 C 12.88 1.54 13.08 1.54 13.6 1.6 C 13.95 1.66 15 1.74 16.1 1.9 C 16.99 2.24 17.81 2.54 17.78 2.84 C 17.47 3.12 13.49 1.62 10.45 1.62 C 7.4 1.62 2.3 3.02 2.48 2.7 C 2.84 2.32 5.2 2.21 5.42 2.14 C 5.95 2.02 6.94 1.93 7.46 1.88 C 7.95 1.8 8.15 1.79 8.88 1.7 C 9.27 1.68 9.46 1.72 10.43 1.69 C 11.23 1.75 11.6 1.53 12.34 1.49"
+                                        android:fillColor="#000000"/>
+                                </group>
+                            </group>
+                        </group>
+                        <group
+                            android:name="_r_g_l_0_g_n_1_t_0"
+                            android:pivotX="50"
+                            android:pivotY="50"
+                            android:translateX="-26"
+                            android:translateY="-28"
+                            android:scaleX="0.1575"
+                            android:scaleY="0.1575">
+                            <group
+                                android:name="_r_g_l_0_g_t_1"
+                                android:translateX="50"
+                                android:translateY="62.698"
+                                android:scaleX="6.34921"
+                                android:scaleY="6.34921">
+                                <group
+                                    android:name="_r_g_l_0_g"
+                                    android:translateX="-9.985"
+                                    android:translateY="-12.789">
+                                    <path
+                                        android:name="_r_g_l_0_g_d_0_p_0"
+                                        android:pathData="M 15.72 2 C 16.33 2 16.85 2.23 17.3 2.7 C 17.74 3.16 17.97 3.7 17.97 4.3 C 17.97 4.3 17.97 18.66 17.97 23.58 C 17.97 23.99 10.99 19.18 9.99 19.15 C 8.99 19.19 1.98 24.02 2 23.58 C 2.02 18.12 2 4.3 2 4.3 C 2 3.7 2.22 3.16 2.67 2.7 C 3.12 2.23 3.64 2 4.25 2 C 4.25 2 8.2 2 10.17 2 C 12.02 2 15.72 2 15.72 2"
+                                        android:fillColor="#000000"
+                                        android:strokeColor="#000000"
+                                        android:strokeWidth="2"
+                                        android:strokeLineCap="round"
+                                        android:strokeLineJoin="round"/>
+                                </group>
+                            </group>
+                        </group>
+                    </group>
+                </group>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="_r_g_l_0_g_d_0_p_0">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="fillColor"
+                android:duration="300"
+                android:valueFrom="#000000"
+                android:valueTo="#00000000"
+                android:valueType="colorType"
+                android:interpolator="@android:anim/linear_interpolator"/>
+        </aapt:attr>
+    </target>
+</animated-vector>

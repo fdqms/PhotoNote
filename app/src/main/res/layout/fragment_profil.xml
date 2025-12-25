@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_alignParentTop="false"
+    android:scrollbars="none"
+    tools:context=".ProfilFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:isScrollContainer="false"
+        android:paddingBottom="88dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_profil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:visibility="visible"
+            app:cardBackgroundColor="@color/arkaPlanRengi"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="true">
+
+            <ImageView
+                android:id="@+id/iv_profil"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter" />
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/tv_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cv_profil"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:elevation="10dp"
+            android:enabled="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="@font/alta"
+            android:includeFontPadding="false"
+            android:text="@string/ad"
+            android:textColor="@color/yaziRengi"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tv_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_ad"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="@font/alta"
+            android:includeFontPadding="false"
+            android:minWidth="60dp"
+            android:text="@string/eposta"
+            android:textAlignment="center"
+            android:textColor="@color/yaziRengi" />
+
+        <Button
+            android:id="@+id/btn_cikis"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_below="@+id/tv_mail"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:layout_toStartOf="@+id/orta"
+            android:background="@drawable/profil_buton"
+            android:backgroundTint="@color/barColor"
+            android:elevation="8dp"
+            android:fontFamily="@font/alta"
+            android:text="@string/cikis_yap"
+            android:textAllCaps="false"
+            android:textColor="@color/yaziRengi"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <Button
+            android:id="@+id/btn_duzenle"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_above="@+id/tv_takipci"
+            android:layout_below="@+id/tv_mail"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_toEndOf="@+id/orta"
+            android:background="@drawable/profil_buton"
+            android:backgroundTintMode="src_over"
+            android:elevation="8dp"
+            android:fontFamily="@font/alta"
+            android:shadowColor="@android:color/black"
+            android:text="@string/duzenle"
+            android:textAllCaps="false"
+            android:textColor="@color/yaziRengi"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <View
+            android:id="@+id/orta"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@+id/tv_mail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/tv_gonderi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_cikis"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@+id/solCizgi"
+            android:fontFamily="@font/alta"
+            android:includeFontPadding="false"
+            android:text="@string/gonderi"
+            android:textColor="@color/yaziRengi"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_takip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_cikis"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/alta"
+            android:includeFontPadding="false"
+            android:text="@string/takip"
+            android:textColor="@color/yaziRengi"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_takipci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_cikis"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/sagCizgi"
+            android:fontFamily="@font/alta"
+            android:includeFontPadding="false"
+            android:text="@string/takipci"
+            android:textColor="@color/yaziRengi"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/solCizgi"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_takip"
+            android:layout_alignBottom="@+id/tv_takip_sayisi"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toStartOf="@+id/tv_takip"
+            android:background="#d9d9d9" />
+
+        <View
+            android:id="@+id/sagCizgi"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_takip"
+            android:layout_alignBottom="@+id/tv_takip_sayisi"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toEndOf="@+id/tv_takip"
+            android:background="#d9d9d9" />
+
+        <TextView
+            android:id="@+id/tv_gonderi_sayisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_gonderi"
+            android:layout_alignStart="@+id/tv_gonderi"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@+id/solCizgi"
+            android:fontFamily="@font/alta"
+            android:includeFontPadding="false"
+            android:text="@string/sifir"
+            android:textAlignment="center"
+            android:textColor="@color/yaziRengi"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tv_takip_sayisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_gonderi"
+            android:layout_marginStart="-11dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="-11dp"
+            android:layout_toStartOf="@id/sagCizgi"
+            android:layout_toEndOf="@id/solCizgi"
+            android:fontFamily="@font/alta"
+            android:includeFontPadding="false"
+            android:text="@string/sifir"
+            android:textAlignment="center"
+            android:textColor="@color/yaziRengi"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tv_takipci_sayisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_gonderi"
+            android:layout_alignEnd="@+id/tv_takipci"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="0dp"
+            android:layout_toEndOf="@+id/sagCizgi"
+            android:fontFamily="@font/alta"
+            android:includeFontPadding="false"
+            android:text="@string/sifir"
+            android:textAlignment="center"
+            android:textColor="@color/yaziRengi"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tv_secenekler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_takip_sayisi"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/alta"
+            android:text="@string/secenekler"
+            android:textAllCaps="false"
+            android:textColor="@color/yaziRengi"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_secenekler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_secenekler"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/sw_dark_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/arkaPlanRengi"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:text="Dark Mode"
+                android:textColor="@color/yaziRengi" />
+
+            <Button
+                android:id="@+id/btn_font_ekle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/arkaPlanRengi"
+                android:drawableEnd="@drawable/ic_sag_ok"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/font_ekle"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/yaziRengi" />
+
+            <Button
+                android:id="@+id/btn_tema_rengi_sec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/arkaPlanRengi"
+                android:drawableEnd="@drawable/ic_sag_ok"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/tema_rengini_belirle"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/yaziRengi" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_ayarlar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_secenekler"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/alta"
+            android:text="@string/ayarlar"
+            android:textAllCaps="false"
+            android:textColor="@color/yaziRengi"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_ayarlar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_ayarlar"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp">
+
+            <Button
+                android:id="@+id/btn_parola"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@color/arkaPlanRengi"
+                android:drawableEnd="@drawable/ic_sag_ok"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/parola_degistir"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/yaziRengi" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

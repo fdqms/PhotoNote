@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_alinti"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    android:background="@color/arkaPlanRengi">
+
+    <com.fdqms.photonote.CustomEditText
+        android:id="@+id/et_alinti"
+        android:theme="@style/Theme.AppCompat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/view_alinti"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/et_kenar"
+        android:fontFamily="@font/arch"
+        android:hint="@string/alinti"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/yaziRengi"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/view_alinti"
+        android:layout_width="3dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/et_alinti"
+        android:layout_alignBottom="@id/et_alinti"
+        android:layout_marginStart="20dp"
+        android:background="#B1233A" />
+</RelativeLayout>

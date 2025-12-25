@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_parola"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bottom_navbar"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="@string/eposta_veya_ad"
+        android:inputType="text"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/et_parola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bottom_navbar"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="@string/parola"
+        android:inputType="textPassword"
+        android:padding="20dp" />
+
+    <View
+        android:id="@+id/orta"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/et_parola"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_giris"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_below="@+id/et_parola"
+        android:layout_alignEnd="@id/et_parola"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toEndOf="@+id/orta"
+        android:background="@drawable/bottom_navbar"
+        android:fontFamily="@font/alata"
+        android:text="@string/giris_yap"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_kaydol"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_below="@+id/et_parola"
+        android:layout_alignStart="@id/et_parola"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toStartOf="@+id/orta"
+        android:background="@drawable/bottom_navbar"
+        android:fontFamily="@font/alata"
+        android:text="@string/kaydol"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/durum_acik"
+        android:drawable="@drawable/menu_profil_dolu"
+        android:state_selected="true"/>
+
+    <item android:id="@+id/durum_kapali"
+        android:drawable="@drawable/menu_profil_bos"
+        android:state_selected="false"/>
+
+    <transition
+        android:drawable="@drawable/menu_profil_dolu"
+        android:fromId="@id/durum_kapali"
+        android:toId="@id/durum_acik" />
+
+</animated-selector>

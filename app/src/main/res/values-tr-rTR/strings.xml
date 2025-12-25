@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Foto Not</string>
+    <string name="ad">Ad</string>
+    <string name="eposta">E-posta</string>
+    <string name="parola">Parola</string>
+    <string name="kaydol">Kaydol</string>
+    <string name="giris_yap">Giriş yap</string>
+    <string name="cikis_yap">Çıkış yap</string>
+    <string name="eposta_veya_ad">E-posta veya ad</string>
+    <string name="yakinda">Yakında</string>
+    <string name="tum_gonderiler">Tüm gönderiler</string>
+    <string name="gonderi_baslik">Başlık</string>
+    <string name="profil">Profil</string>
+    <string name="duzenle">Düzenle</string>
+    <string name="tamam">Tamam</string>
+    <string name="gonderi">Gönderi</string>
+    <string name="takip">Takip</string>
+    <string name="takipci">Takipçi</string>
+    <string name="erisim_engellendi">Erişim engellendi</string>
+    <string name="depo_erisim_kabul">lütfen depolama erişimine izin verin</string>
+    <string name="uzanti_ttf">Dosya uzantısı ttf olmalı</string>
+    <string name="basarili">Başarılı</string>
+    <string name="hata">Hata</string>
+    <string name="dosya_yoneticisi_yukle">Lütfen bir dosya yöneticisi yükleyin</string>
+    <string name="yazi_tipi_bulunamadi">Yazı tipi bulunamadı</string>
+    <string name="mail_hatali">E-posta hatalı</string>
+    <string name="secenekler">Seçenekler</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="parola_degistir">Parola değiştir</string>
+    <string name="font_ekle">Yazı tipi ekle</string>
+    <string name="alinti">Alıntı</string>
+    <string name="tema_rengini_belirle">Tema rengini belirle</string>
+    <string name="beni_hatirla">Beni hatırla</string>
+    <string name="kayit_basarisiz">Kayıt başarısız! Başka ad veya mail seçin</string>
+    <string name="bir_seyler_yaz">Bir şeyler yaz...</string>
+</resources>

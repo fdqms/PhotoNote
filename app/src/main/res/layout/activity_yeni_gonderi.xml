@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_yeni_gonderi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/arkaPlanRengi"
+    android:fitsSystemWindows="true"
+    tools:context=".YeniGonderi">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/barColor"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:elevation="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_kapat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_kapat" />
+
+            <com.fdqms.photonote.CustomEditText
+                android:id="@+id/et_baslik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_toStartOf="@+id/btn_kabul"
+                android:layout_toEndOf="@+id/btn_kapat"
+                android:background="@drawable/et_baslik"
+                android:fontFamily="@font/specialelite"
+                android:hint="@string/gonderi_baslik"
+                android:textAlignment="center"
+                android:textColor="@color/yaziRengi"
+                android:textColorHint="#d8d8d8" />
+
+            <ImageView
+                android:id="@+id/btn_kabul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_kabul"
+                android:transitionName="tKalem" />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/alt_butonlar"
+        android:layout_below="@+id/toolbar"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/icerik_listesi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <com.fdqms.photonote.CustomEditText
+                android:id="@+id/etPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_kenar"
+                android:ems="10"
+                android:fontFamily="@font/architecsdaughter"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:textColorHint="@color/hintColor"
+                app:boxBackgroundMode="none" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/alt_butonlar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/barColor"
+        android:elevation="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rt_metin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            app:srcCompat="@drawable/rt_metin" />
+
+        <ImageView
+            android:id="@+id/rt_alinti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            app:srcCompat="@drawable/rt_alinti" />
+
+        <ImageView
+            android:id="@+id/rt_resim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            app:srcCompat="@drawable/rt_resim" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cccccc" />
+
+        <ImageView
+            android:id="@+id/rt_sol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            app:srcCompat="@drawable/rt_align_left" />
+
+        <ImageView
+            android:id="@+id/rt_orta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            app:srcCompat="@drawable/rt_align_middle" />
+
+        <ImageView
+            android:id="@+id/rt_sag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            app:srcCompat="@drawable/rt_align_right" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrolView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="true">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/fbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:alignContent="stretch"
+        app:alignItems="stretch"
+        app:flexWrap="wrap">
+
+    </com.google.android.flexbox.FlexboxLayout>
+</ScrollView>

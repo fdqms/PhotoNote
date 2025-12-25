@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1012107330153",
+    "firebase_url": "https://photonote-app.firebaseio.com",
+    "project_id": "photonote-app",
+    "storage_bucket": "photonote-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012107330153:android:e6012002caea877cbcd8f8",
+        "android_client_info": {
+          "package_name": "com.fdqms.photonote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012107330153-t6e18jfd640q8c3v36jhik9dpg03i9m0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fdqms.photonote",
+            "certificate_hash": "8f20c8b460f93dca6b5bd3dc9d3d59c55ca0efc2"
+          }
+        },
+        {
+          "client_id": "1012107330153-fam4a5364thne3khf1fu8tkj6n9pmu6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuNMJHxIaR7qUjexnUC6FqGGMJv22CugA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012107330153-fam4a5364thne3khf1fu8tkj6n9pmu6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

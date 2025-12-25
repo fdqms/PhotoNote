@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/arkaPlanRengi"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_parola"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/profil_buton"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:elevation="8dp"
+        android:ems="10"
+        android:fontFamily="@font/alta"
+        android:hint="@string/eposta_veya_ad"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/yaziRengi"
+        android:textColorHint="@color/hintColor" />
+
+    <EditText
+        android:id="@+id/et_parola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/orta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/profil_buton"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:elevation="8dp"
+        android:ems="10"
+        android:fontFamily="@font/alta"
+        android:hint="@string/parola"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/yaziRengi"
+        android:textColorHint="@color/hintColor" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchOto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orta"
+        android:layout_alignStart="@+id/et_parola"
+        android:layout_alignEnd="@+id/et_parola"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:height="48dp"
+        android:checked="true"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/beni_hatirla"
+        android:textColor="@color/yaziRengi" />
+
+    <View
+        android:id="@+id/orta"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="false" />
+
+    <Button
+        android:id="@+id/btn_giris"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_below="@+id/switchOto"
+        android:layout_alignEnd="@id/et_parola"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toEndOf="@+id/orta"
+        android:background="@drawable/profil_buton"
+        android:backgroundTint="@color/yaziRengi"
+        android:elevation="16dp"
+        android:fontFamily="@font/alta"
+        android:text="@string/giris_yap"
+        android:textAllCaps="false"
+        android:textColor="@color/arkaPlanRengi"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <Button
+        android:id="@+id/btn_kaydol"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_below="@id/switchOto"
+        android:layout_alignStart="@id/et_parola"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toStartOf="@+id/orta"
+        android:background="@drawable/profil_buton"
+        android:elevation="8dp"
+        android:fontFamily="@font/alta"
+        android:text="@string/kaydol"
+        android:textAllCaps="false"
+        android:textColor="@color/yaziRengi"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+</RelativeLayout>

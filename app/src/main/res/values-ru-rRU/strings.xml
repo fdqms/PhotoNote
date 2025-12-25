@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Фото нота</string>
+    <string name="ad">Имя</string>
+    <string name="eposta">Эл. адрес</string>
+    <string name="parola">пароль</string>
+    <string name="kaydol">регистр</string>
+    <string name="giris_yap">Авторизоваться</string>
+    <string name="cikis_yap">Выйти</string>
+    <string name="eposta_veya_ad">все сообщения</string>
+    <string name="yakinda">скоро</string>
+    <string name="gonderi_baslik">Заголовок</string>
+    <string name="profil">профиль</string>
+    <string name="duzenle">редактировать</string>
+    <string name="tamam">Хорошо</string>
+    <string name="gonderi">Почта</string>
+    <string name="takip">в читаемых</string>
+    <string name="takipci">читатель</string>
+    <string name="erisim_engellendi">доступ закрыт</string>
+    <string name="depo_erisim_kabul">пожалуйста, разрешите доступ к хранилищу</string>
+    <string name="uzanti_ttf">расширение файла должно быть ttf</string>
+    <string name="basarili">успешный</string>
+    <string name="hata">ошибка</string>
+    <string name="dosya_yoneticisi_yukle">Пожалуйста, загрузите файловый менеджер</string>
+    <string name="yazi_tipi_bulunamadi">шрифт не найден</string>
+    <string name="mail_hatali">адрес электронной почты неверен</string>
+    <string name="secenekler">" предпочтения"</string>
+    <string name="ayarlar">Настройки</string>
+    <string name="parola_degistir">Изменение пароля</string>
+    <string name="font_ekle">добавить шрифт</string>
+    <string name="alinti">цитата</string>
+    <string name="tema_rengini_belirle">выбрать цвет темы</string>
+    <string name="beni_hatirla">Запомни меня</string>
+    <string name="tum_gonderiler">все посты</string>
+    <string name="kayit_basarisiz">Регистрация не удалась! Выберите другое имя или почту</string>
+    <string name="bir_seyler_yaz">Напиши что-нибудь</string>
+</resources>

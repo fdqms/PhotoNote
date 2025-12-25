@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nsv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/arkaPlanRengi"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="56dp"
+        android:orientation="vertical"
+        tools:context=".BlogFragment">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adView"
+            android:scrollbars="none" />
+
+        <TextView
+            android:id="@+id/tv_tum_gonderiler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_view_2"
+            android:fontFamily="@font/amati"
+            android:letterSpacing="0.2"
+            android:padding="20dp"
+            android:text="@string/tum_gonderiler"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/yaziRengi"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tum_gonderiler" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

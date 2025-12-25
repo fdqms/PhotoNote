@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Photo Note</string>
+
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-5260711859318238/2522285663</string>
+    <string name="sifir" translatable="false">0</string>
+    <string name="ad">Name</string>
+    <string name="eposta">E-mail</string>
+    <string name="parola">Password</string>
+    <string name="kaydol">Sign up</string>
+    <string name="giris_yap">Sign in</string>
+    <string name="cikis_yap">Logout</string>
+    <string name="eposta_veya_ad">E-mail or name</string>
+    <string name="yakinda">Coming soon</string>
+    <string name="tum_gonderiler">All post</string>
+    <string name="gonderi_baslik">Heading</string>
+    <string name="profil">Profile</string>
+    <string name="duzenle">Edit</string>
+    <string name="tamam">OK</string>
+    <string name="gonderi">Post</string>
+    <string name="takip">Follow</string>
+    <string name="takipci">Follower</string>
+    <string name="depo_erisim_kabul">Please enable storage access</string>
+    <string name="erisim_engellendi">Permission denied</string>
+    <string name="uzanti_ttf">File extension must be ttf</string>
+    <string name="basarili">Successful</string>
+    <string name="hata">Error</string>
+    <string name="dosya_yoneticisi_yukle">Please install a file manager</string>
+    <string name="yazi_tipi_bulunamadi">Font not found</string>
+    <string name="mail_hatali">Mail\'s wrong</string>
+    <string name="secenekler">Preferences</string>
+    <string name="ayarlar">Settings</string>
+    <string name="parola_degistir">Change password</string>
+    <string name="font_ekle">Add font</string>
+    <string name="alinti">Quote</string>
+    <string name="tema_rengini_belirle">Select theme color</string>
+    <string name="beni_hatirla">Remember me</string>
+    <string name="kayit_basarisiz">Registration failed! Choose another name or mail</string>
+    <string name="bir_seyler_yaz">Write something...</string>
+</resources>
